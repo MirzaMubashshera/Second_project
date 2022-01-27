@@ -1,0 +1,699 @@
+.container-fluid{
+    background-color:  #c3404e;
+}
+.navbar-brand{
+    font-size: 30px;
+    font-family: "Cursive	", Cursive	Brush Script MT,Verdana;
+    
+   
+}
+
+
+.form-control {
+    margin-right: 40.5rem!important;
+   width: 469px;
+}
+.navbar-nav{
+    height: 41px;
+    width: 100%; 
+    padding-right: var(--bs-gutter-x,73.75rem);
+    padding-left: var(--bs-gutter-x,.95rem);
+   margin-top: -16px;
+  
+   border: initial;
+ background-color: #a32e3e;
+     -webkit-tap-highlight-color:transparent;
+     text-decoration-style: dotted;
+    
+     
+   
+    
+}
+.navbar-nav .nav-link {
+  
+    
+    color: white;
+    text-align: left;
+    
+    float: right;
+
+}
+.nav-link {
+    float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+/*slide image*/
+
+.carousel-inner{
+    
+  
+   padding: 0;
+   margin: 0;
+   margin-top: -8px;
+
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   position: relative;
+ 
+
+
+
+
+
+}
+.carousel-item> img{
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    display: inline;
+    width: 200px;
+    height: 50vh;
+    /*background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;*/
+    background-blend-mode: darken;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+    opacity: 10;
+    background: rgba(76, 175, 80, 0.3);
+  
+}
+.container1{
+    border: rgb(175, 14, 14);
+  width: 100%;
+    
+    margin: top 3px;
+    height: 20px;
+    margin: 0;
+}
+.col{
+    width: 320px;
+    padding: 0px;
+    background-color: #c3404e;
+    border: 1px solid white;
+    margin: 0;
+    margin-top: -2px;
+    height: 140px;
+}
+.row{
+    width: 101%;
+    margin: 0;
+    padding: 0;
+    height: 140px;
+    margin-left: -13.5px;
+}
+
+
+.col>img{
+  height:60px;
+  width:50%;
+  align-items: center;
+  margin-top: 40px;
+  margin-left: 59px;
+  background-color: red;
+  background-image:image-set(Red);
+}
+.col>p{
+  color: white;
+  margin-top: 10px;
+  text-align: center;
+  justify-content: center;
+}
+.listingcontainer-3{
+   
+    margin-left: 2%;
+    border:2px solid rgb(245, 245, 245);
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create three equal columns that floats next to each other 
+  .column {
+    float: 5px;
+    width: 99%;
+    padding: 7px;
+    height: 280px; /* Should be removed. Only for demonstration 
+    margin-top: 10%;
+    border: 8px solid rgb(150, 13, 13);
+    
+  }
+  
+.column>img{
+    height: 105px;
+    width: 104%;
+   margin-left: -9px;
+  
+   
+   
+}
+.column>h5{
+  font-size: 20px;
+  margin-left: 50%;
+  font: bolder;
+}
+  /* Clear floats after the columns 
+  .container-2 {
+    content: "";
+    display: table;
+    clear: both;
+  }*/
+ 
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eaeaea;
+  }
+  
+  /* Float four columns side by side */
+  .column {
+    float: left;
+    width: 31%;
+    padding: 2px 10px;
+    margin-top: 144px;
+    
+  }
+  
+  /* Remove extra left and right margins, due to padding in columns */
+  .row1 {margin: 0 -5px;
+    margin-left: 86px;
+  }
+  
+  /* Clear floats after the columns */
+  .row1:after {
+    content: "";
+    display: table;
+    clear: both;
+    
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+    height: 256px;
+    width: 98%;
+    
+  }
+  .card>img{
+    height:200px;
+    width: 108%;
+    margin-left: -17px;
+    margin-top: -16px;
+   
+  }
+  .card>h5{
+    margin-top: 26px;
+    text-align: left;
+    color: #c3404e;
+  }
+ /* .card:hover{
+    transform: scale(1.1);
+  }*/
+  
+  .column {
+    float: left;
+    width: 33%;
+    padding: 2px 10px;
+    margin-top: 144px;
+    
+  }
+  
+  /* Remove extra left and right margins, due to padding in columns */
+  .row1 {margin: 0 -5px;
+    margin-left: 10px;
+  }
+  .row2 {margin: 0 -5px;
+    margin-left: 10px;
+    margin-top: 2px;
+  }
+  .row3 {margin: 0 -5px;
+    margin-left: 10px;
+    margin-top: 2px;
+  }
+  .column1 {
+    float: left;
+    width: 33%;
+    padding: 2px 10px;
+    margin-top: 22px;
+    
+  }
+  .column2 {
+    float: left;
+    width: 33%;
+    padding: 2px 10px;
+    margin-top: 22px;
+    
+  }
+  
+  /* Clear floats after the columns */
+  .row1:after {
+    content: "";
+    display: table;
+    clear: both;
+    
+  }
+  
+  
+  /* Responsive columns - one column layout (vertical) on small screens */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  h2 {
+   
+  height: 71px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  border: 5px solid  #f1f1f1;
+  margin-block-start: 19.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  box-shadow: 9px 2px 27px #636363;
+  background-color: #f2f2f2;
+  text-align: center;
+
+ 
+  
+  font-family: 'Montserrat' sans-serif;
+   
+
+
+}
+  
+
+
+
+/* Float four columns side by side */
+.column-b {
+  float: left;
+  width: 31%;
+  padding: 2px 10px;
+  margin-top: 14px;
+  
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row-b {margin: -123px -5px;
+  margin-left: 18px;
+}
+
+/* Clear floats after the columns */
+.row-b:after {
+  content: "";
+  display: table;
+  clear: both;
+  
+}
+
+
+
+
+
+/* Style the counter cards */
+.card-b {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 11px;
+  text-align: center;
+  
+  background-color: #f1f1f1;
+  height: 314px;
+  width: 93%;
+  border-radius: 5%;
+  
+}
+.card-b>img{
+  height:250px;
+  width: 108%;
+  margin-left: -11px;
+  margin-top: -16px;
+ 
+ 
+}
+.card-b>h5{
+  margin-top: 16px;
+  text-align: left;
+  color: black;
+}
+.card-b>h6{
+  margin-top: 0px;
+  text-align: left;
+  color: rgb(121, 117, 117);
+}
+.card-b:hover{
+  transform: scale(1.1);
+}
+
+.column-b {
+  float: left;
+  width: 25%;
+  padding: 2px 10px;
+  margin-top: 144px;
+  
+}
+
+
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column-b {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+h3 {
+   
+  height: 71px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  border: 5px solid  #f1f1f1;
+  margin-block-start: 5.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  box-shadow: 9px 2px 27px #636363;
+  background-color: #f2f2f2;
+  text-align: center;
+
+ 
+  
+  font-family: 'Montserrat' sans-serif;
+   
+
+
+}
+
+
+.column-c {
+  float: left;
+  width: 35%;
+  padding: 2px 10px;
+  margin-top: 14px;
+  
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row-c {margin: -123px -5px;
+  margin-left: 43px;
+}
+
+/* Clear floats after the columns */
+.row-c:after {
+  content: "";
+  display: table;
+  clear: both;
+  
+}
+
+
+
+
+
+/* Style the counter cards */
+.card-c {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 11px;
+  text-align: center;
+  
+  background-color: #f1f1f1;
+  height: 400px;
+  width: 93%;
+  
+  
+}
+.card-c>img{
+  height: 106%;
+  width:70%;
+  margin-left: -132px;
+ margin-top: -10px;
+ 
+}
+.card-c>h6{
+  height:100%;
+  width: 30%;
+  margin-top: -317;
+  margin-top: -332px;
+  margin-left: 282px;
+  line-height: 2.2;
+}
+
+.card-c>h5{
+  height:100%;
+  width: 30%;
+  
+  
+  margin-left: 280px;
+  margin-top: -348px;
+   
+    line-height: 1.2;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ 
+}
+.card-c:hover{
+  transform: scale(1.1);
+}
+
+.column-c {
+  float: left;
+  width: 33%;
+  padding: 2px 10px;
+  margin-top: 144px;
+  
+}
+
+
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column-c {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+.column-d {
+  float: left;
+  width: 35%;
+  padding: 2px 10px;
+  margin-top: 14px;
+  
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row-d {margin: -123px -5px;
+  margin-left: 43px;
+}
+
+/* Clear floats after the columns */
+.row-d:after {
+  content: "";
+  display: table;
+  clear: both;
+  
+}
+
+
+
+
+
+/* Style the counter cards */
+.card-d {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 11px;
+  text-align: center;
+  
+  background-color: #f1f1f1;
+  height: 400px;
+  width: 93%;
+  
+  
+}
+.card-d>img{
+  height: 106%;
+  width:70%;
+  margin-left: -132px;
+ margin-top: -9px;
+ 
+ 
+}
+.card-d>h6{
+  height:100%;
+  width: 30%;
+  margin-top: -317;
+  margin-top: -332px;
+  margin-left: 282px;
+  line-height: 2.2;
+ 
+}
+.card-d:hover{
+  transform: scale(1.1);
+}
+.card-d>h5{
+  height:100%;
+  width: 30%;
+  
+  
+  margin-left: 280px;
+  margin-top: -348px;
+   
+    line-height: 1.2;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ 
+}
+
+.column-d {
+  float: left;
+  width: 33%;
+  padding: 2px 10px;
+  margin-top: 22px;
+  
+}
+
+
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column-d {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+.column-e {
+  float: left;
+  width: 35%;
+  padding: 2px 10px;
+  margin-top: 14px;
+  
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row-e {margin: -123px -5px;
+  margin-left: 43px;
+}
+
+/* Clear floats after the columns */
+.row-e :after {
+  content: "";
+  display: table;
+  clear: both;
+  
+}
+
+
+
+
+
+/* Style the counter cards */
+.card-e  {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 11px;
+  text-align: center;
+  
+  background-color: #f1f1f1;
+  height: 246px;
+  width: 93%;
+  
+  
+}
+
+.card-e >img{
+  height: 98%;
+  width:113%;
+  margin-left: -11px;
+ margin-top: -14px;
+ 
+ 
+}
+.card-e >h6{
+  
+ text-align: center;
+ color: #c3404e;
+}
+
+
+.card-e:hover{
+  transform: scale(1.1);
+}
+  
+ 
+
+.column-e  {
+  float: left;
+  width: 16%;
+  padding: 2px 10px;
+  margin-top: 144px;
+  
+}
+
+
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column-e  {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+h4 {
+   
+  height: 71px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  border: 5px solid  #f1f1f1;
+  margin-block-start: 19.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  box-shadow: 9px 2px 27px #636363;
+  background-color: #f2f2f2;
+  text-align: center;
+ 
+ 
+  
+  font-family: 'Montserrat' sans-serif;
+   
+
+
+}
+
+
+
+
+h1 {
+   
+  height: 71px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  border: 5px solid  #f1f1f1;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  box-shadow: 9px 2px 27px #636363;
+  background-color: #f2f2f2;
+  text-align: center;
+
+ 
+  
+  font-family: 'Montserrat' sans-serif;
+   
+
+
+}
